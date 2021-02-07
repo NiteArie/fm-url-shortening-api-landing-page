@@ -4,7 +4,11 @@
 
 > Desktop
 
-![Desktop Design](./design/desktop-design.jpg);
+![Desktop Design](./design/desktop-design.jpg)
+
+> Desktop Active States
+
+![Desktop Active State](./design/desktop-active-states.jpg)
 
 > Mobile
 
