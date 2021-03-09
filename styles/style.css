@@ -113,6 +113,8 @@ body {
 /* Form */
 
 .form {
+    position: relative;
+    top: -65px;
     padding: 0 100px;
 }
 
