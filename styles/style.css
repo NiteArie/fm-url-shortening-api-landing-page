@@ -243,3 +243,32 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+/* Boost */
+
+.boost {
+    padding: 50px;
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url("../images/bg-boost-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boost__title {
+    color: hsl(0, 0%, 100%);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.boost__cta {
+    margin-top: 25px;
+    padding: 12px 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 17px;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
