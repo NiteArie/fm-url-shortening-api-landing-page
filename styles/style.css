@@ -37,6 +37,10 @@ body {
     text-decoration: none;
 }
 
+.header__link:hover {
+    color: hsl(0, 0%, 0%);
+}
+
 .header__choice {
     display: flex;
     align-items: center;
@@ -51,11 +55,18 @@ body {
 .header__signup {
     margin-left: 20px;
     color: hsl(0, 0%, 100%);
+    font-size: 16px;
     font-weight: bold;
     background-color: hsl(180, 66%, 49%);
     padding: 10px 25px;
     border-radius: 25px;
     border: 0;
+    cursor: pointer;
+    transition: background-color 150ms ease-out;
+}
+
+.header__signup:hover {
+    background-color: hsl(180, 66%, 70%);
 }
 
 /* Shorten */
@@ -95,6 +106,11 @@ body {
     border: 0;
     border-radius: 25px;
     cursor: pointer;
+    transition: background-color 150ms ease-out;
+}
+
+.shorten__cta:hover {
+    background-color: hsl(180, 66%, 70%);
 }
 
 .shorten__illustration {
@@ -149,6 +165,12 @@ body {
     padding: 10px 30px;
     border-radius: 10px;
     border: 0;
+    cursor: pointer;
+    transition: opacity 150ms ease-out;
+}
+
+.form__submit:hover {
+    background-color: hsl(180, 66%, 70%);
 }
 
 /* Stat */
@@ -271,6 +293,11 @@ body {
     border-radius: 30px;
     border: 0;
     cursor: pointer;
+    transition: background-color 150ms ease-out;
+}
+
+.boost__cta:hover {
+    background-color: hsl(180, 66%, 70%);
 }
 
 /* Footer */
@@ -313,10 +340,18 @@ body {
     font-weight: bold;
 }
 
+.footer__link:hover {
+    color: hsl(180, 46%, 59%);
+}
+
 .footer__socials {
     display: flex;
 }
 
 .footer__social {
     margin-left: 20px;
+}
+
+.footer__social-link:hover {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(92%) saturate(5361%) hue-rotate(126deg) brightness(86%) contrast(87%);
 }
