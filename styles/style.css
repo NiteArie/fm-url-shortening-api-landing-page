@@ -272,3 +272,51 @@ body {
     border: 0;
     cursor: pointer;
 }
+
+/* Footer */
+
+.footer {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(260, 8%, 14%);
+}
+
+.footer__icon {
+    filter: brightness(5);
+}
+
+.footer__right {
+    display: flex;
+}
+
+.footer__options {
+    margin-right: 60px;
+}
+
+.footer__option {
+    margin-bottom: 15px;
+}
+
+.footer__option--first {
+    margin-bottom: 25px;
+}
+
+.footer__link {
+    color: hsl(0, 0%, 75%);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer__link--first {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.footer__socials {
+    display: flex;
+}
+
+.footer__social {
+    margin-left: 20px;
+}
