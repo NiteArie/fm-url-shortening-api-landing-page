@@ -116,7 +116,6 @@ body {
 .shorten__illustration {
     flex: 1;
     overflow: hidden;
-    /* background-image: url("../images/illustration-working.svg"); */
 }
 
 .shorten__image {
