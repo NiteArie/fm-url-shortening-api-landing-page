@@ -346,6 +346,8 @@ body {
 
 .footer__socials {
     display: flex;
+    align-self: flex-start;
+    align-items: center;
 }
 
 .footer__social {
