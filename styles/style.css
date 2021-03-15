@@ -413,4 +413,23 @@ body {
         margin-top: 10px;
     }
 
+    /* Footer */
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__right {
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .footer__socials {
+        flex-direction: column;
+    }
+
+    .footer__social {
+        margin-bottom: 15px;
+    }
+
 }
